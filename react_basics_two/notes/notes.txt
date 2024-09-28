@@ -1,0 +1,7 @@
+** REACT NATIVE **
+-- it has it's own ui element
+-- the UI element are the hative UI element
+
+** Layouts **
+-- in react native we use flexbox to create the layouts of the components
+--
