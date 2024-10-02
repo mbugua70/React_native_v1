@@ -22,12 +22,16 @@ const Styles = StyleSheet.create({
     padding: 18,
     backgroundColor: "#72063c",
     marginHorizontal: 20,
+    // the property elevation is only for android (shadow)
     elevation: 4,
     borderRadius: 8,
 
     // the styling below are meant to be for ios(shadow)
+    // shadowOpacity is how much or strong the shadow is
     shadowOpacity: 0.25,
     shadowColor: "black",
-    shadowOffset: "",
+    shadowOffset: { width: 4, height: 2 },
+    // shadowRadius shows how much the shadow spread
+    shadowRadius: 6,
   },
 });
